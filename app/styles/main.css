@@ -6,7 +6,7 @@
 }
 
 body {
-  padding: 0;
+  padding-top: 50px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -80,4 +80,8 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.carousel-image{
+  width: 100%;
 }
