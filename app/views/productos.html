@@ -1,0 +1,31 @@
+<div class="row-fluid" style="padding-top: 100px;">
+	<div class="col-md-2" ng-repeat="sidem in sidems">
+    	<h3 style="padding-bottom: 20px">{{sidem.title}}</h3><hr>
+    	<p>{{sidem.text}}</p><hr>
+    	<p>{{sidem.text2}}</p><hr>
+    	<p>{{sidem.text3}}</p><hr>
+    	<p>{{sidem.text4}}</p><br>
+    	<h3>{{sidem.title2}}</h3><hr>
+    	<p>{{sidem.text5}}</p><hr>
+    	<p>{{sidem.text6}}</p><hr>
+    	<p>{{sidem.text7}}</p><hr>
+    	<p>{{sidem.text8}}</p><br>
+    	<h3>{{sidem.title3}}</h3><hr>
+    	<p>{{sidem.text9}}</p><hr>
+    	<p>{{sidem.text10}}</p><hr>
+    	<p>{{sidem.text11}}</p><hr>
+    	<p>{{sidem.text12}}</p><hr>
+  	</div>
+
+  	<div class="col-md-2"></div>
+
+  	<div class="col-md-6">
+  		<carousel interval="setInterval">
+			<slide ng-repeat="slide in slides" active="slide.active">
+		    	<img class="carousel-image" ng-src="{{slide.image}}"></img>
+		  	</slide>
+		</carousel>
+  	</div>
+
+  	<div class="col-md-2"></div>
+</div>

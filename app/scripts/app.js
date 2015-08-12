@@ -32,6 +32,31 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/nosotros', {
+        templateUrl: 'views/nosotros.html',
+        controller: 'NosotrosCtrl',
+        controllerAs: 'nosotros'
+      })
+      .when('/certificados', {
+        templateUrl: 'views/certificados.html',
+        controller: 'CertificadosCtrl',
+        controllerAs: 'certificados'
+      })
+      .when('/productos', {
+        templateUrl: 'views/productos.html',
+        controller: 'ProductosCtrl',
+        controllerAs: 'productos'
+      })
+      .when('/promociones', {
+        templateUrl: 'views/promociones.html',
+        controller: 'PromocionesCtrl',
+        controllerAs: 'promociones'
+      })
+      .when('/contactanos', {
+        templateUrl: 'views/contactanos.html',
+        controller: 'ContactanosCtrl',
+        controllerAs: 'contactanos'
+      })
       .otherwise({
         redirectTo: '/'
       });
