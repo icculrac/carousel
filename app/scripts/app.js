@@ -18,7 +18,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'ui.grid'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -56,6 +57,11 @@ angular
         templateUrl: 'views/contactanos.html',
         controller: 'ContactanosCtrl',
         controllerAs: 'contactanos'
+      })
+      .when('/miembros', {
+        templateUrl: 'views/miembros.html',
+        controller: 'MiembrosCtrl',
+        controllerAs: 'miembros'
       })
       .otherwise({
         redirectTo: '/'

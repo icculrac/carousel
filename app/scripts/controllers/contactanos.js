@@ -9,9 +9,5 @@
  */
 angular.module('carouselApp')
   .controller('ContactanosCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    
   });

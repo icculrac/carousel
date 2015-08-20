@@ -1,0 +1,7 @@
+[
+{"no":"1", "nombre":"Rafael", "fidelidad": 10, "fechaUnion":"3/5/91", "tipoMiembro":"Owner"},
+{"no":"2", "nombre":"Juan", "fidelidad": 5, "fechaUnion":"3/5/10", "tipoMiembro":"Premium"},
+{"no":"3", "nombre":"Angel", "fidelidad": 4, "fechaUnion":"3/5/10", "tipoMiembro":"Free"},
+{"no":"4", "nombre":"Perez", "fidelidad": 3, "fechaUnion":"3/5/10", "tipoMiembro":"Free"},
+{"no":"5", "nombre":"Luis", "fidelidad": 9, "fechaUnion":"3/5/10", "tipoMiembro":"Admin"}
+]

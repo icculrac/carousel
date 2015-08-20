@@ -25,5 +25,9 @@ $scope.addPics=function(i){
 for (var i=0;i<4;i++){
 	$scope.addPics(i);
 }
+//Puntuacion de las imagenes
+$scope.rate = 0;
+$scope.max = 5;
+$scope.isReadonly = false;
 
   });
